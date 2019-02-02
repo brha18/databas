@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Semi+Condensed|BenchNine|Caveat|Coming+Soon|Didact+Gothic|Gafata|Give+You+Glory|Imprima|Itim|Josefin+Slab|Neucha|Roboto+Condensed|Roboto+Slab|Saira+Condensed|Text+Me+One|Waiting+for+the+Sunrise');
+
+html {
+    background: #030800; /* #9e3449; */
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    color: goldenrod;
+}
+
+body {
+    margin: 8px auto;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px cornflowerblue; /* #aaa; */
+
+    /*     background-image: url(img/251px-Mora_vapen.svg);
+    background-image: url(img/gardening-tools_960_549_X.jpg); */
+    background-image: url(img/Mora_vapen.svg);
+
+    /*     background: url(img/hund.jpg) no-repeat center center fixed;
+    background: url(img/dalahast.jpg) repeat center center fixed;
+    background: #7e3444;  */
+    background-size: cover;
+    width: 1200px;
+}
+
+header {
+    width: 1200px;
+}
+
+nav {
+    width: 1200px;
+}
+
+.min-sida {
+    width: 800px;
+    float: right;
+}
+
+.rubrikrad {
+    background: #7e3444;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+img.hund {
+    width: 2.6em;
+    transform: rotate(90deg);
+}
+
+#hund {
+    width: 2.6em;
+    transform: rotate(90deg);
+    float: right;
+}
+
+#jag {
+    width: 2.6em;
+    float: right;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', 'Didact Gothic', sans-serif;
+    font-size: 1.01em;
+}
+
+h3 {
+    font-family: 'Coming Soon', 'Didact Gothic', sans-serif;
+    font-size: 0.8em;
+}
+
+p {
+    font-family: 'Roboto Slab', 'Didact Gothic', serif;
+    font-size: 0.5em;
+}
+
+a {
+    color: cornflowerblue;
+    text-shadow: 1px 2px 3px goldenrod;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+a:hover {
+    color: goldenrod;
+    text-shadow: 1px 2px 3px cornflowerblue;
+}
+
+#message {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: cornflowerblue;
+    background-color: gold;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+    }
+}
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Neucha', cursive;
+font-family: 'Text Me One', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Itim', cursive;
+font-family: 'Give You Glory', cursive;
+font-family: 'Waiting for the Sunrise', cursive;
+font-family: 'Gafata', sans-serif;
+font-family: 'Imprima', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
