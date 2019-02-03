@@ -1,17 +1,20 @@
 <!doctype html>
+<!-- "Me-sidan"
+Britt Hallin
+2019-02-03
+-->
+
 <html lang="sv">
 <head>
     <meta charset="utf-8">
     <title>Presentation av min själv i databaskursen </title>
 <!--    <link rel="stylesheet" href="style/style_03_color.css"> -->
-    <link rel="stylesheet" href="style/style_BU.css">
+    <link rel="stylesheet" href="style/style_me.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
 <body>
-
-
 
 <header>
     <nav>
@@ -21,53 +24,52 @@
     </nav>
 </header>
 
-<div id="hund">
-  <img src="img/hund.jpg" width="200" alt="hund">
+<div>
+    <img src="img/hund.jpg" id="hund" width="200" alt="hund">
 </div>
 
-<article>
+<div class="rubrikrad">
+    <h1>Min me-sida i
+        <a href="https://dbwebb.se/kurser/databas-v1">Kursen databas (v1)</a></h1>
+</div>
 
-<h1>Min me-sida i  <a href="https://dbwebb.se/kurser/databas-v1">Kursen databas (v1)</a></h1>
+<div class="min-sida">
+<br><br>
+<p>Typiskt mig - vad är det där? Måste dokumentera och googla.
+    <img src="img/me_fjaril.jpg" id="jag" alt="Bild på mig"></p>
+<br>
+<p>Detta är min me-sida i kursen. Den innehåller en väldigt kort presentation av mig själv. Jag skriver lite under hela kursen.</p>
 
-<p><img src="img/me_fjaril.jpg" width="200" alt="Bild på mig"></p>
+<p>Jag är Britt Hallin, en pensionär som behöver underhålla de hjärnceller som fortfarande finns kvar.
+    Jag har arbetat med ADB och/eller data i större delen av mitt liv. Det har varit allt från programmerare till operatör.</p>
 
-<p>Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Jag skriver lite under hela kursen.</p>
+<p>Jag kommer från
+    <img src="img/1200px-Dalarna_vapen.png" id="dalarna" width="50" alt="dalarna">, närmare bestämt i
+    <img src="img/dalahastar.jpg" id="mora" width="50" alt="mora"> och har kvar mitt barndomshem. Numera bor jag i
+    <img src="img/Sthlm.png" id="sthlm" width="50" alt="sthlm">.</p>
 
-Mitt namn är Britt Hallin, pensionär som behöver underhålla de hjärnceller som fortfarande finns kvar. Jag har arbetat med ADB och/eller data i större delen av mitt liv. Det har varit allt från programmerare till operatör.
+<p>Mina intressen är trädgård (jag är ju pensionär), hundar och hästar.</p>
 
-<p><img src="img/hund.jpg" width="200" rotate="90deg" alt="Min tidigare daghund"></p>
+<p>Jag har en odlingslott i
+    <a href="https://rackstakoloni.se/">Föreningen Råcksta Fritidsträdgårdar</a> och var tidigare dagmatte åt
+    <img src="img/hund.jpg" class="hund" alt="Min tidigare daghund">, en liten yorkshireterriertik.
 
-
-Min tidigare "daghund" i stället har flyttat till en annan kommun nu.
-
-
-Jag vet inte ännu hur man gör för att rotera den. Får fixa det i ett senare kursmoment, moment 05, då vi håller på med bilder. Undras om man använder
-*.@{fa-css-prefix}-rotate-90  { .fa-icon-rotate(90deg, 1);  }*, som finns i mappen theme/node_modules/fontawesome-free/less. Fast den kanske bara avser ikoner och inte bilder.
-
-Nej, det var inte där. I kmom05 lär jag mig om CImage.
-Har nu kompletterat "src=..." med "aro" så att den nu ser ut så här *src="img/hund.jpg?w=250&aro*.
-(Det kanske inte blir så med användning av tidigare .less-varianter.)
-
-Jag kommer från Dalarna, närmare bestämt Mora, och har kvar mitt barndomshem. Numera bor jag i Bromma.
-
-Mina intressen är trädgård (jag är ju pensionär), hundar och hästar.
-Jag har en odlingslott i [Föreningen Råcksta Fritidsträdgårdar](https://rackstakoloni.se/) och var tidigare dagmatte åt en [liten yorkshireterriertik](https://www.skk.se/sv/hundraser/yorkshireterrier/).
-Jag hade häst i mer än 30 år. De var tre engelska fullblod och ett svenskt halvblod, varav ett köpt och de övriga min uppfödning.
-Hade jag skaffat häst idag hade det blivit en [lusitano](http://www.cavalo-lusitano.com/).
-
-Denna webbplats är byggd i HTML, CSS och Markdown och är en del i kursen design.
-Detta innehåll är skrivet i **markdown** och du hittar innehållet i filen `content/index.md`.
-
-### Detta är skoj men vad visade de på TV igår?###
-
-<p>Vi syns och hörs i forum och chatt!</p>
-    <p>Nu är klockan
-    <p id="klockan"></p>
-</p>
-</article>
+Hon har nu har flyttat till
+    <a href="http://www.ekero.se/">Ekerö kommun</a>.</p>
+<p>Jag hade <img src="img/equineskelet.jpg" id="skelett" alt="häst"> i mer än 30 år. De var tre engelska fullblod och ett svenskt halvblod, varav ett köpt och de övriga min uppfödning.
+Hade jag skaffat häst idag hade det blivit en <a href="http://www.cavalo-lusitano.com/">lusitano</a>.</p>
 
 
+<p>Denna webbplats är byggd i HTML, CSS och JS och är en del i kursen databas.</p>
 
+<h3>Detta är skoj men vad visade de på TV igår?</h3>
+
+<p>Våra inlägg syns i forum och chatt!</p>
+
+</div>
+<div class="mittMeddelande">
+<p id="message"></p>
+</div>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+/* Stilbeskrivning responsivitet
+Britt Hallin
+2019-02-03
+*/
+
+/**
+ * responsive
+ */
+@media (max-width: 980px) {
+    html {
+        width: auto;
+        background-color: white;
+        text-shadow: 1px 2px 3px white;
+    }
+
+    body {
+        width: auto;
+        background-color: white;
+        text-shadow: 1px 1px  white;
+    }
+
+    .min-sida {
+        width: auto;
+        background-color: white;
+        text-shadow: 1px 1px  white;
+    }
+
+    .mittMeddelande {
+        width: auto;
+        background-color: yellow;
+        text-shadow: 1px 1px white;
+    }
+}

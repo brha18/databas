@@ -1,3 +1,7 @@
+/* Stilbeskrivning för "Me-sidan"
+Britt Hallin
+2019-02-03
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Semi+Condensed|BenchNine|Caveat|Coming+Soon|Didact+Gothic|Gafata|Give+You+Glory|Imprima|Itim|Josefin+Slab|Neucha|Roboto+Condensed|Roboto+Slab|Saira+Condensed|Text+Me+One|Waiting+for+the+Sunrise');
 
@@ -12,16 +16,9 @@ html {
 body {
     margin: 8px auto;
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 2.2em;
     text-shadow: 4px 4px 4px cornflowerblue; /* #aaa; */
-
-    /*     background-image: url(img/251px-Mora_vapen.svg);
-    background-image: url(img/gardening-tools_960_549_X.jpg); */
     background-image: url(img/Mora_vapen.svg);
-
-    /*     background: url(img/hund.jpg) no-repeat center center fixed;
-    background: url(img/dalahast.jpg) repeat center center fixed;
-    background: #7e3444;  */
     background-size: cover;
     width: 1200px;
 }
@@ -43,25 +40,6 @@ nav {
     background: #7e3444;
 }
 
-#bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-}
-
-#bg img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-}
-
 img.hund {
     width: 2.6em;
     transform: rotate(90deg);
@@ -76,6 +54,10 @@ img.hund {
 #jag {
     width: 2.6em;
     float: right;
+}
+
+#skelett {
+    width: 2.6em;
 }
 
 h1 {

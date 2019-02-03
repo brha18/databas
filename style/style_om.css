@@ -1,0 +1,45 @@
+/* Stilbeskrivning för "Om-sidan"
+Britt Hallin
+2019-02-03
+*/
+html {
+    background: #124d5f;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    color: goldenrod;
+    font-family: 'Coming Soon', 'Didact Gothic', sans-serif;
+    text-shadow: 1px 1px #124d5f;
+}
+
+body {
+    text-shadow: 1px 1px #124d5f;
+    font-family: 'Barlow Semi Condensed', 'BenchNine', sans-serif;
+}
+
+h1 {
+    font-family: 'Coming Soon', 'Roboto Condensed', 'Didact Gothic', sans-serif;
+}
+
+p {
+    font-family: 'Coming Soon', 'Roboto Slab', 'Didact Gothic', serif;
+    font-size: 0.5em;
+}
+
+a {
+    color: #e57712;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.5em;
+    text-shadow: 1px 1px #124d5f;
+}
+
+a:hover {
+    color: #fafefd;
+    text-shadow: 2px -1px goldenrod;
+    font-size: 1.5em;
+}
+
+#imgKmom01Om {
+    width: 15em;
+    float: right;
+}
